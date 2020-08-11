@@ -11,8 +11,9 @@ row_index = 0
       lowest_val = src[row_index][element_index]
     end
     element_index +=1
-    min_values.push(lowest_val)
+    
   end
+  min_values.push(lowest_val)
   row_index += 1
  end
  min_values
