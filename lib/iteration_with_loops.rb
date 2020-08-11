@@ -11,4 +11,4 @@ while row_index < src.count do
       lowest_val = src[row_index][element_index]
     end
     element_index +=1
-    
+    min_values.push 
